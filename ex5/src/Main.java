@@ -1,5 +1,3 @@
-package org.example;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -27,7 +25,7 @@ public class Main {
             }
         }
         System.out.println(ListaIdades);
-        
+
 
         System.out.println(menor);
         System.out.println(maior);

@@ -1,19 +1,9 @@
-package org.example;
-
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-Desenvolva um script para uma pousada que cobra R$ 200,00 de diária mais uma taxa de serviço que varia
-de acordo com o período de hospedagem, sendo:
-   -> R$ 10,00 por diária em períodos maiores que 10 dias.
-   -> R$ 15,00 por diária se o período for de 10 dias.
-   -> R$ 20,00 por diária em períodos menores que 10 dias.
-   Apresente o valor total da hospedagem a ser pago por um período informado pelo usuário.
-*/
+
         Scanner sc = new Scanner(System.in);
 
         double valor;
@@ -43,7 +33,6 @@ de acordo com o período de hospedagem, sendo:
             }
 
         }
-
 
     }
 }
